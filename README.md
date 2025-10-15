@@ -40,18 +40,22 @@ Borrow out = A'Bin + A'B + BBin
 
 **Procedure**
 
-Write the detailed procedure here
+1. Type the program in Quartus software.
+2. Compile and run the program.
+3. Generate the RTL schematic and save the logic diagram.
+4. Create nodes for inputs and outputs to generate the timing diagram.
+5. For different input combinations generate the timing diagram
 
 **Program:**
 
-module ex3 (a,b,c,x,y,z,sum,dif,car,bor);
-input a,b,c,x,y,z;
-output sum,dif,car,bor;
-assign sum = a^b^c;
-assign car = a&b | a&c | b&c;
-assign dif = x^y^z;
-assign bor = ~x&z | ~x&y | y&z;
-endmodule
+1. module ex3 (a,b,c,x,y,z,sum,dif,car,bor);
+2. input a,b,c,x,y,z;
+3. output sum,dif,car,bor;
+4. assign sum = a^b^c;
+5. assign car = a&b | a&c | b&c;
+6. assign dif = x^y^z;
+7. assign bor = ~x&z | ~x&y | y&z;
+8. endmodule
 
 Developed by: RIHAB ZAKKAIR HUSSAIN ,RegisterNumber: 25015140
 
