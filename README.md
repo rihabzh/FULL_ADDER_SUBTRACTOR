@@ -53,7 +53,7 @@ assign dif = x^y^z;
 assign bor = ~x&z | ~x&y | y&z;
 endmodule
 
-Developed by: RIHAB ZAKKAIR HUSSAIN   RegisterNumber: 25015140
+Developed by: RIHAB ZAKKAIR HUSSAIN ,RegisterNumber: 25015140
 
 
 **RTL Schematic**
